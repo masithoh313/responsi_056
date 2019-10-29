@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5CF3D"
+    android:orientation="vertical"
+    tools:context=".previewmain">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="#28E705"
+        android:text="Personal Summary"
+        android:textColor="#F8F7F7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_lgn"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/button_bck"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_alignRight="@id/button_lgn"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="-158dp"
+        android:text="BACK" />
+
+</RelativeLayout>
